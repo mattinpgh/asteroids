@@ -48,7 +48,7 @@ def main():
                     sys.exit()
                 for shot in pewpews:
                     if item.get_collision(shot):
-                        item.kill()
+                        item.split()
                         shot.kill()
     #---switch for types of asteroids                    if item.
                     #print('Asteroid destroyed!')
