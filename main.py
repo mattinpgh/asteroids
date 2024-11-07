@@ -46,8 +46,10 @@ def main():
                 if item.get_collision(player_model):
                     print('Game over!')
                     sys.exit()
-                elif item.get_collision(pewpews):
-                    item.kill()
+                for shot in pewpews:
+                    if item.get_collision(shot):
+                        item.kill()
+                        shot.kill()
     #---switch for types of asteroids                    if item.
                     print('Asteroid destroyed!')
     
