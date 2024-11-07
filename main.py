@@ -51,7 +51,7 @@ def main():
                         item.kill()
                         shot.kill()
     #---switch for types of asteroids                    if item.
-                    print('Asteroid destroyed!')
+                    #print('Asteroid destroyed!')
     
         for item in drawable:
             item.draw(screen)
