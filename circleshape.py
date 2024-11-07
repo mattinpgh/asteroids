@@ -1,3 +1,6 @@
+# asteroids/circleshape.py
+
+
 import pygame
 
 class CircleShape(pygame.sprite.Sprite):
